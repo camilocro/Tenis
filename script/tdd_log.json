@@ -1,0 +1,16 @@
+[
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788269962368,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(tdd): ciclo 1 - implementar estado inicial Love-Love",
+    "commitTimestamp": 1788270013304,
+    "testId": 0
+  }
+]
