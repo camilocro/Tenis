@@ -57,4 +57,11 @@ describe('Marcador de Tenis', () => {
     }
     expect(game.getScore()).toBe('Game for Player 2');
   });
+
+  it('Debería reiniciar el marcador a Love-Love cuando se llama a reset', () => {
+    const game = new TennisGame();
+    game.scorePlayer1();
+    game.reset();
+    expect(game.getScore()).toBe('Love-Love');
+  });
 });

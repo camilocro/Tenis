@@ -108,9 +108,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6905ebfffaeb2c2ec1101aaa533f5e152bd4b53d",
     "commitName": "feat(ui): integrar presenter.js y html para crear la interfaz",
     "commitTimestamp": 1788271479671,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(ui): añadir boton de reinicio y bloquear controles al finalizar el juego",
+    "commitTimestamp": 1788272208803,
+    "testId": 7
   }
 ]

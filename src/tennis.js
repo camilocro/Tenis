@@ -6,6 +6,11 @@ class TennisGame {
   scorePlayer1() { this.p1Score++; }
   scorePlayer2() { this.p2Score++; }
   
+  reset() {
+    this.p1Score = 0;
+    this.p2Score = 0;
+  }
+  
   getScore() {
     if (this.p1Score >= 4 && this.p1Score - this.p2Score >= 2) return 'Game for Player 1';
     if (this.p2Score >= 4 && this.p2Score - this.p1Score >= 2) return 'Game for Player 2';

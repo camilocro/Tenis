@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6905ebfffaeb2c2ec1101aaa533f5e152bd4b53d",
     "author": "camilocro",
     "commit": {
       "date": "2026-09-01T14:04:36.000Z",
       "message": "feat(ui): integrar presenter.js y html para crear la interfaz",
-      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+      "url": "https://github.com/camilocro/Tenis/commit/6905ebfffaeb2c2ec1101aaa533f5e152bd4b53d"
     },
     "stats": {
       "total": 64,
@@ -129,6 +129,25 @@
     },
     "coverage": 88.89,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-09-01T14:16:46.000Z",
+      "message": "feat(ui): añadir boton de reinicio y bloquear controles al finalizar el juego",
+      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 49,
+      "additions": 41,
+      "deletions": 8,
+      "date": "2026-09-01"
+    },
+    "coverage": 90,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
