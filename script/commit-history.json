@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "94e0b706c55e3d2d8db400a6cec0757c70d9cebf",
     "author": "camilocro",
     "commit": {
       "date": "2026-09-01T13:54:36.000Z",
       "message": "feat(tdd): ciclo 5 - implementar logica para Ventaja",
-      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+      "url": "https://github.com/camilocro/Tenis/commit/94e0b706c55e3d2d8db400a6cec0757c70d9cebf"
     },
     "stats": {
       "total": 15,
@@ -91,6 +91,25 @@
     },
     "coverage": 85.71,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-09-01T14:02:41.000Z",
+      "message": "feat(tdd): ciclo 6 - implementar ganador del game y tests completos",
+      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 26,
+      "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 88.89,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

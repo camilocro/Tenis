@@ -35,4 +35,26 @@ describe('Marcador de Tenis', () => {
     game.scorePlayer1();
     expect(game.getScore()).toBe('Advantage Player 1');
   });
+
+  it('Debería mostrar Game for Player 1 si el Jugador 1 anota un punto teniendo ventaja', () => {
+    const game = new TennisGame();
+  
+    for (let i = 0; i < 3; i++) {
+      game.scorePlayer1();
+      game.scorePlayer2();
+    }
+
+    game.scorePlayer1();
+    game.scorePlayer1();
+    expect(game.getScore()).toBe('Game for Player 1');
+  });
+
+  it('Debería mostrar Game for Player 2 si el Jugador 2 llega a 40 y anota un punto más sin Deuce', () => {
+    const game = new TennisGame();
+
+    for (let i = 0; i < 4; i++) {
+      game.scorePlayer2();
+    }
+    expect(game.getScore()).toBe('Game for Player 2');
+  });
 });

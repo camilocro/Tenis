@@ -80,9 +80,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "94e0b706c55e3d2d8db400a6cec0757c70d9cebf",
     "commitName": "feat(tdd): ciclo 5 - implementar logica para Ventaja",
     "commitTimestamp": 1788270879488,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 2,
+    "numTotalTests": 8,
+    "timestamp": 1788271281501,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788271333502,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(tdd): ciclo 6 - implementar ganador del game y tests completos",
+    "commitTimestamp": 1788271364524,
+    "testId": 5
   }
 ]
