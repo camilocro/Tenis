@@ -5,4 +5,10 @@ describe('Marcador de Tenis', () => {
     const game = new TennisGame();
     expect(game.getScore()).toBe('Love-Love');
   });
+
+  it('Debería mostrar 15-Love cuando el Jugador 1 anota un punto', () => {
+    const game = new TennisGame();
+    game.scorePlayer1();
+    expect(game.getScore()).toBe('15-Love');
+  });
 });

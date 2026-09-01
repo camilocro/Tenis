@@ -8,9 +8,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2070abb09fabbd1677982fa6316978bad8a10138",
     "commitName": "feat(tdd): ciclo 1 - implementar estado inicial Love-Love",
     "commitTimestamp": 1788270013304,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(tdd): ciclo 2 - implementar el primer punto 15-Love",
+    "commitTimestamp": 1788270345558,
+    "testId": 1
   }
 ]
