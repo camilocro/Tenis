@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d35ab34d90af7252c7ea4448ec8b534d11f47f18",
     "author": "camilocro",
     "commit": {
       "date": "2026-09-01T13:51:39.000Z",
       "message": "feat(tdd): ciclo 4 - agregar logica para Deuce",
-      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+      "url": "https://github.com/camilocro/Tenis/commit/d35ab34d90af7252c7ea4448ec8b534d11f47f18"
     },
     "stats": {
       "total": 11,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-09-01T13:54:36.000Z",
+      "message": "feat(tdd): ciclo 5 - implementar logica para Ventaja",
+      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-09-01"
+    },
+    "coverage": 85.71,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

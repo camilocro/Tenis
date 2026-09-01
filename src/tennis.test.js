@@ -26,4 +26,13 @@ describe('Marcador de Tenis', () => {
     }
     expect(game.getScore()).toBe('Deuce');
   });
+  it('Debería mostrar Advantage Player 1 si Jugador 1 anota después de Deuce', () => {
+    const game = new TennisGame();
+    for (let i = 0; i < 3; i++) {
+      game.scorePlayer1();
+      game.scorePlayer2();
+    }
+    game.scorePlayer1();
+    expect(game.getScore()).toBe('Advantage Player 1');
+  });
 });
