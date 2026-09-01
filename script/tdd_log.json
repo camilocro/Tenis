@@ -102,9 +102,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "90d1e0cbcbd324a1845cd9e7b1e5b9ad9d184c24",
     "commitName": "feat(tdd): ciclo 6 - implementar ganador del game y tests completos",
     "commitTimestamp": 1788271364524,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(ui): integrar presenter.js y html para crear la interfaz",
+    "commitTimestamp": 1788271479671,
+    "testId": 6
   }
 ]

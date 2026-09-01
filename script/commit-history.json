@@ -95,17 +95,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "90d1e0cbcbd324a1845cd9e7b1e5b9ad9d184c24",
     "author": "camilocro",
     "commit": {
       "date": "2026-09-01T14:02:41.000Z",
       "message": "feat(tdd): ciclo 6 - implementar ganador del game y tests completos",
-      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+      "url": "https://github.com/camilocro/Tenis/commit/90d1e0cbcbd324a1845cd9e7b1e5b9ad9d184c24"
     },
     "stats": {
       "total": 26,
       "additions": 26,
       "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 88.89,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-09-01T14:04:36.000Z",
+      "message": "feat(ui): integrar presenter.js y html para crear la interfaz",
+      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 64,
+      "additions": 36,
+      "deletions": 28,
       "date": "2026-09-01"
     },
     "coverage": 88.89,
