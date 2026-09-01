@@ -11,4 +11,11 @@ describe('Marcador de Tenis', () => {
     game.scorePlayer1();
     expect(game.getScore()).toBe('15-Love');
   });
+  it('Debería manejar puntajes generales como 30-15', () => {
+    const game = new TennisGame();
+    game.scorePlayer1();
+    game.scorePlayer1();
+    game.scorePlayer2();
+    expect(game.getScore()).toBe('30-15');
+  });
 });
