@@ -18,4 +18,12 @@ describe('Marcador de Tenis', () => {
     game.scorePlayer2();
     expect(game.getScore()).toBe('30-15');
   });
+  it('Debería mostrar Deuce si ambos jugadores llegan a 40 (3 puntos cada uno)', () => {
+    const game = new TennisGame();
+    for (let i = 0; i < 3; i++) {
+      game.scorePlayer1();
+      game.scorePlayer2();
+    }
+    expect(game.getScore()).toBe('Deuce');
+  });
 });

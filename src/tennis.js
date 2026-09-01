@@ -7,6 +7,9 @@ class TennisGame {
   scorePlayer2() { this.p2Score++; }
   
   getScore() {
+    if (this.p1Score >= 3 && this.p1Score === this.p2Score) {
+      return 'Deuce';
+    }
     const scores = ['Love', '15', '30', '40'];
     return `${scores[this.p1Score]}-${scores[this.p2Score]}`;
   }

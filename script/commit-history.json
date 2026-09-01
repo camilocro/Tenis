@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1fbd357beeabadf03a489f0aeac708ac8024a76c",
     "author": "camilocro",
     "commit": {
       "date": "2026-09-01T13:49:21.000Z",
       "message": "feat(tdd): ciclo 3 - implementar logica de puntuacion base hasta 40",
-      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+      "url": "https://github.com/camilocro/Tenis/commit/1fbd357beeabadf03a489f0aeac708ac8024a76c"
     },
     "stats": {
       "total": 18,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-09-01T13:51:39.000Z",
+      "message": "feat(tdd): ciclo 4 - agregar logica para Deuce",
+      "url": "https://github.com/camilocro/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

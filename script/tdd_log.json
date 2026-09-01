@@ -36,9 +36,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1fbd357beeabadf03a489f0aeac708ac8024a76c",
     "commitName": "feat(tdd): ciclo 3 - implementar logica de puntuacion base hasta 40",
     "commitTimestamp": 1788270564483,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788270616282,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788270630389,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(tdd): ciclo 4 - agregar logica para Deuce",
+    "commitTimestamp": 1788270702423,
+    "testId": 3
   }
 ]
